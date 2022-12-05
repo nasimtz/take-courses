@@ -1,0 +1,58 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Vazir;
+    user-select: none;
+    font-size: 1rem;
+    color: rgb(36, 36, 36);
+    direction: rtl;
+}
+.row{
+    display: flex;
+    margin: 5px;
+    text-align: center;
+}
+
+.table-list table,th, td{
+    padding: 10px;
+    border: 1px solid #a2c5c5;
+    border-collapse: collapse;
+}
+
+.table-list tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+.btn{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: rgb(26, 0, 172);
+    border: 1.5px solid rgb(26, 0, 172);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.btn:active{
+    background-color: rgb(125, 105, 236);
+    color: white;
+}
+
+#total{
+    display: flex;
+    align-content: flex-start;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: rgb(168, 12, 12);
+}
+
+
+
+@font-face {
+    font-family: Vazir;
+    src: url(fonts/Vazir.woff);
+}
